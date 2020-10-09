@@ -1,8 +1,8 @@
-from src.nary import all_nary
+from src.rings import Z
 
 
 def main():
-    print(list(all_nary(4, 3)))
+    print(Z(4, 3))
 
 
 if __name__ == "__main__":
